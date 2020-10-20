@@ -1,0 +1,144 @@
+{
+    "Grapefruit Soap": {
+        "Price": [
+            "8.99"
+        ],
+        "Description": [
+            "Bright, citrus soap made with Shea Butter, Mango Butter, and Cocoa Butter to moisturize the skin. This soap has a drizzle of Grapefruit essential oil."
+        ],
+        "Tags": [
+            "#grapefruit",
+            "#soap"
+        ]
+    },
+    "Lemongrass Sugar Scrub": {
+        "Price": [
+            "10.99"
+        ],
+        "Description": [
+            "It's a sugar scrub with character. Bright lemon smell that leaves your face felling like a million bucks."
+        ],
+        "Tags": [
+            "#sugarscrub",
+            "#lemon"
+        ]
+    },
+    "Charcoal & Clay Facial Scrub": {
+        "Price": [
+            "10.99"
+        ],
+        "Description": [
+            "Face scrub that unclogs your pores and cleanses your face."
+        ],
+        "Tags": [
+            "#charcoal",
+            "#clay",
+            "#facialscrub"
+        ]
+    },
+    "Lavender Soap": {
+        "Price": [
+            "8.99"
+        ],
+        "Description": [
+            "A soft soap with a lovely scent of lavender and vanilla."
+        ],
+        "Tags": [
+            "#lavender",
+            "#soap"
+        ]
+    },
+    "Aloe Vera & Goat Milk Soap": {
+        "Price": [
+            "9.99"
+        ],
+        "Description": [
+            "A very nice blend of cleansing aloe and softening goat milk."
+        ],
+        "Tags": [
+            "#aloe",
+            "#goatmilk",
+            "#soap"
+        ]
+    },
+    "Peppermint Soap": {
+        "Price": [
+            "8.99"
+        ],
+        "Description": [
+            "Cleanses your skin and fills it with a pepermint sensation."
+        ],
+        "Tags": [
+            "#peppermint",
+            "#soap"
+        ]
+    },
+    "Eucalyptus Soap": {
+        "Price": [
+            "8.99"
+        ],
+        "Description": [
+            "Opens your poors and gives you a cool, smooth feeling."
+        ],
+        "Tags": [
+            "#eucalyptus",
+            "#soap"
+        ]
+    },
+    "Raw Soap": {
+        "Price": [
+            "7.99"
+        ],
+        "Description": [
+            "Mild, organic, scentless soap for those who want a gentle clean without any added color or fragrance."
+        ],
+        "Tags": [
+            "#raw",
+            "#scentless"
+        ]
+    },
+    "Calendula Burdock Salve": {
+        "Price": [
+            "10.99"
+        ],
+        "Description": [
+            "An effective moisturizing salve made with an infusion of calendula, burdock root, and lavender."
+        ,
+        "Tags": [
+            "#calendula",
+            "#burdock",
+            "#lavender",
+            "#salve"
+        ]
+    },
+    "Soothe Me Salve": {
+        "Price": [
+            "10.99"
+        ],
+        "Description": [
+            "A healing and moisturising salve made with an infusion of Comfrey, Calendula, Rose, Rosemary, and Plantain."
+        ],
+        "Tags": [
+            "#comfrey",
+            "#calendula",
+            "#rose",
+            "#rosemary",
+            "#plantain",
+            "#salve"
+        ]
+    },
+    "Lavender Loofah Soap": {
+        "Price": [
+            "8.99"
+        ],
+        "Description": [
+            "Lavender Soap with a Loofah inside to help scrub the bad away."
+        ],
+        "Tags": [
+            "#lavender",
+            "#loofah",
+            "#soap"
+        ]
+    }
+}
+

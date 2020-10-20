@@ -1,0 +1,98 @@
+/************************/
+/*****Global styling*****/
+/************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container {
+    background-color: rgba(100, 100, 100);
+}
+#main {
+    display: block;
+    overflow: auto;
+    padding-bottom: 75px;
+    background-color:sandybrown;
+}
+#logobar {
+    padding-top: 5%;
+    width: 80%;
+    background-color: sandybrown;
+}
+
+/***********************/
+/********Nav Bar********/
+/***********************/
+
+nav li a{
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: lightslategray;
+    color: black
+}
+nav {
+    opacity: 80%;
+}
+nav li {
+    float: left;
+}
+li a:hover {
+    background-color: darkslategrey;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightslategray;
+}
+
+/************************/
+/*******Filter Bar*******/
+/************************/
+#filterbar {
+    max-width: 20%;
+    float: left;
+    height: 100%;
+    background-color: lightgreen;
+}
+
+/************************/
+/*****Item Container*****/
+/************************/
+.itemblock {
+    height: 200px;
+    width: 250px;
+    background-color: pink;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+/************************/
+/*****Footer styling*****/
+/************************/
+#footer {
+    background-color: bisque;
+    position: relative;
+    height: 75px;
+    margin-top: -75px;
+}
+footer p {
+    font-size: 13px;
+    font-weight: bold;
+    color: darkslategrey; 
+}
+footer a:hover {
+    font-weight: bold;
+    color: lightslategray;
+}
