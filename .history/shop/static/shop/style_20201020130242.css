@@ -1,6 +1,7 @@
 /************************/
 /*****Global styling*****/
 /************************/
+
 * {
     margin: 0;
     padding: 0;
@@ -17,56 +18,19 @@ html, body {
     display: block;
     overflow: auto;
     min-height: 80%;
-    padding: 2%;
-    padding-top: 1%;
-    min-height: 80%;
     padding-bottom: 75px;
     background-color:sandybrown;
 }
 #logobar {
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 5%;
     width: 80%;
     background-color: sandybrown;
 }
 
 /***********************/
-/******Filter Bar*******/
-/***********************/
-#filterbar {
-    max-width: 17%;
-    padding: 2%;
-    float: left;
-    height: 80%;
-    background-color: lightgreen;
-}
-
-/***********************/
-/******Login Links******/
-/***********************/
-.login {
-    float: right;
-    margin-right: 2%;
-    margin-top: 1%;
-    list-style-type: none;
-}
-.login a {
-    text-decoration: none;
-    color: aliceblue;
-}
-.login ul {
-    color: aliceblue;
-    font-weight: bold;
-    padding-top: 5px;
-}
-.login a:hover {
-    color: blueviolet;
-    text-decoration: underline;
-}
-
-/***********************/
 /********Nav Bar********/
 /***********************/
+
 nav li a{
     display: block;
     text-align: center;
@@ -94,6 +58,28 @@ nav ul {
 }
 
 /************************/
+/*******Filter Bar*******/
+/************************/
+#filterbar {
+    max-width: 20%;
+    float: left;
+    height: 100%;
+    background-color: lightgreen;
+}
+
+/************************/
+/*****Item Container*****/
+/************************/
+.itemblock {
+    height: 200px;
+    width: 250px;
+    background-color: pink;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+/************************/
 /*****Footer styling*****/
 /************************/
 #footer {
@@ -111,22 +97,3 @@ footer a:hover {
     font-weight: bold;
     color: lightslategray;
 }
-
-/************************/
-/******Row Container*****/
-/************************/
-.rowblock {
-    height: 200px;
-    width: 800px;
-}
-/************************/
-/*****Item Container*****/
-/************************/
-.itemblock {
-    height: 200px;
-    width: 250px;
-    background-color: pink;
-    padding: 10px;
-    margin: 20px;
-}
-

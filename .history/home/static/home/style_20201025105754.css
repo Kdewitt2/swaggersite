@@ -67,6 +67,7 @@ html, body {
 /***********************/
 /********Nav Bar********/
 /***********************/
+
 nav li a{
     display: block;
     text-align: center;
@@ -94,6 +95,30 @@ nav ul {
 }
 
 /************************/
+/*******News Item********/
+/************************/
+.newsItem {
+    max-height: fit-content;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 2%;
+    border-radius: 10px 30px;
+    background-color: brown;
+    overflow: auto;
+}
+.newsItem img {
+    max-height: 18%;
+    max-width: 18%;
+    float: left;
+    padding: 1%;
+}
+.newsitem p {
+    position: center;
+    top: 50%;
+}
+
+/************************/
 /*****Footer styling*****/
 /************************/
 #footer {
@@ -111,22 +136,3 @@ footer a:hover {
     font-weight: bold;
     color: lightslategray;
 }
-
-/************************/
-/******Row Container*****/
-/************************/
-.rowblock {
-    height: 200px;
-    width: 800px;
-}
-/************************/
-/*****Item Container*****/
-/************************/
-.itemblock {
-    height: 200px;
-    width: 250px;
-    background-color: pink;
-    padding: 10px;
-    margin: 20px;
-}
-

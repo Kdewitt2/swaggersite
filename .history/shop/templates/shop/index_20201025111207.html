@@ -58,17 +58,12 @@
             </div>
         </div>
 
+
         {% for product in products %}
-            <div class = "rowblock">
-                {% for i in range(3) %}
-                    <div class="itemblock">
-                        Test
-                        {{ product }}
-                    </div>
-                {% endfor %}
+            <div class="itemblock">
+                {{ product }}
             </div>
         {% endfor %}
-
 <!--
         <div class="itemblock">
             Item2

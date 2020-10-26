@@ -1,6 +1,7 @@
 /************************/
 /*****Global styling*****/
 /************************/
+
 * {
     margin: 0;
     padding: 0;
@@ -29,10 +30,6 @@ html, body {
     width: 80%;
     background-color: sandybrown;
 }
-
-/***********************/
-/******Filter Bar*******/
-/***********************/
 #filterbar {
     max-width: 17%;
     padding: 2%;
@@ -40,33 +37,21 @@ html, body {
     height: 80%;
     background-color: lightgreen;
 }
-
 /***********************/
 /******Login Links******/
 /***********************/
 .login {
     float: right;
-    margin-right: 2%;
-    margin-top: 1%;
-    list-style-type: none;
+    
 }
-.login a {
-    text-decoration: none;
-    color: aliceblue;
-}
-.login ul {
-    color: aliceblue;
+login a:hover {
     font-weight: bold;
-    padding-top: 5px;
-}
-.login a:hover {
-    color: blueviolet;
-    text-decoration: underline;
 }
 
 /***********************/
 /********Nav Bar********/
 /***********************/
+
 nav li a{
     display: block;
     text-align: center;
@@ -93,6 +78,19 @@ nav ul {
     background-color: lightslategray;
 }
 
+
+/************************/
+/*****Item Container*****/
+/************************/
+.itemblock {
+    height: 200px;
+    width: 250px;
+    background-color: pink;
+    padding: 10px;
+    margin: 20px;
+}
+
+
 /************************/
 /*****Footer styling*****/
 /************************/
@@ -111,22 +109,3 @@ footer a:hover {
     font-weight: bold;
     color: lightslategray;
 }
-
-/************************/
-/******Row Container*****/
-/************************/
-.rowblock {
-    height: 200px;
-    width: 800px;
-}
-/************************/
-/*****Item Container*****/
-/************************/
-.itemblock {
-    height: 200px;
-    width: 250px;
-    background-color: pink;
-    padding: 10px;
-    margin: 20px;
-}
-

@@ -5,16 +5,16 @@
 <link rel="stylesheet" type="text/css" href="{% static 'shop/style.css' %}">
     <header>        
         <title>
-            Spirit Swagger Shop
+            Spirit Swagger Home 
         </title>
     </header>
 
 <!------------>
-<!---Nav Bar-->
+<!--Nav Bar--->
 <!------------>
     <div class="container">
        <div class="logobar">
-           <img src=" {% static '/home/SwaggerLogo.PNG' %}" href="../home">
+           <img src="/shop/SwaggerLogo.PNG" href="../home">
             <ul class = "login">
                 <li> <a href = "../login"> Login </a></li>
                 <li> <a href = "../signup"> Sign Up </a></li>
@@ -46,37 +46,12 @@
 <!------------------>
 <section>
     <div id="main">
-        <div class = "rowblock">
-            <div class = "itemblock">
-                Item1
-            </div>
-            <div class = "itemblock">
-                Item2
-            </div>
-            <div class = "itemblock">
-                Item3
-            </div>
+        <div class = "newsItem">
+            This is going to be story 1 of a new addition to the website.
         </div>
-
-        {% for product in products %}
-            <div class = "rowblock">
-                {% for i in range(3) %}
-                    <div class="itemblock">
-                        Test
-                        {{ product }}
-                    </div>
-                {% endfor %}
-            </div>
-        {% endfor %}
-
-<!--
-        <div class="itemblock">
-            Item2
+        <div class = "newsItem">
+            This is story 2. 
         </div>
-        <div class="itemblock">
-            Item3
-        </div>
--->        
     </div>
 </section>
 

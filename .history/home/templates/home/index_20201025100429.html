@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="{% static 'shop/style.css' %}">
     <header>        
         <title>
-            Spirit Swagger Shop
+            Spirit Swagger Home 
         </title>
     </header>
 
@@ -46,37 +46,13 @@
 <!------------------>
 <section>
     <div id="main">
-        <div class = "rowblock">
-            <div class = "itemblock">
-                Item1
-            </div>
-            <div class = "itemblock">
-                Item2
-            </div>
-            <div class = "itemblock">
-                Item3
-            </div>
+        <div class = "newsItem">
+            <img src="{% static '/home/jsonEx.PNG' %}" href="../home">
+            <p>I've added the items into a local json file to be pulled into the shop page with jinja2. </p>
         </div>
-
-        {% for product in products %}
-            <div class = "rowblock">
-                {% for i in range(3) %}
-                    <div class="itemblock">
-                        Test
-                        {{ product }}
-                    </div>
-                {% endfor %}
-            </div>
-        {% endfor %}
-
-<!--
-        <div class="itemblock">
-            Item2
+        <div class = "newsItem">
+            <p>This is story 2. </p> 
         </div>
-        <div class="itemblock">
-            Item3
-        </div>
--->        
     </div>
 </section>
 
