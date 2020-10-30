@@ -62,7 +62,7 @@
 <!-- Looped row + items -->
         {% for product in products %}
             <div class = "rowblock">
-                {% for i in range(3) %}
+                {% for i in [0,1,2] %}
                     <div class="itemblock">
                         Test
                         {{ product }}
