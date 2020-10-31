@@ -32,9 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'home.apps.HomeConfig',
-    'shop.apps.ShopConfig',
+    'shop.apps.Shopconfig',
     'polls.apps.PollsConfig',
-    'about.apps.AboutConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
